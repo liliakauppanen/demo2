@@ -8,3 +8,5 @@ P {
 }
 body {background-color: black;}
 body {color: white;}
+div{border-width: 2px;
+border-style:dotted;}
