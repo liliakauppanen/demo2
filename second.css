@@ -1,9 +1,8 @@
 
 body{
     background-color: #ABE6EC;
-    background-image: url("background.jpg");
-    padding:35px;
-    margin-top:10px;
+    background-image: url("taustakuvaa.jpg");
+    margin-top: 10px;
     margin-bottom:10px;
     margin-right:15px;
     margin-left:15px;
@@ -17,7 +16,7 @@ p.teksti {
 }
 p.teksti {
     border-radius: 100px;
-    background-color: cadetblue;
+    background-color:#CAF3EF;
 }
 p.teksti {
     padding:35px;
