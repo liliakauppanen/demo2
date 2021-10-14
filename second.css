@@ -12,35 +12,41 @@ H1 {
     border-style: solid;
     font-size:30px;
 }
+
 p.teksti {
-    border-style:groove
+    border-style: groove;
 }
+
 p.teksti {
     border-radius: 100px;
     background-color:#CAF3EF;
 }
 p.teksti {
-    padding:35px;
-    
+    padding: 35px;
 }
-header {
-    background-color:rgb(187, 233, 233);
+
+#header {
+    background-color:rgb(109, 221, 224);
     padding: 15px;
     text-align: center;
     font-size: 25px;
     color:white;
+    margin: 30px;
 }
-nav {
-    background-color: rgb(174, 212, 212);
+#nav {
+    background-color: #BFECEF;
     padding:15px;
     text-align: left;
     font-size: 15px;
     color: white;
+    margin:30px;
 }
-section {background-color:rgb(169, 205, 206);
+#section {
+    background-color:#BFECEF;
     padding: 15px;
     font-size: 15px;
     color: white;
+    margin: 30px;
     }
     body.b {
         width: 90%;
@@ -59,8 +65,8 @@ nav {
      font-family: arial;
      background-color: rgb(121, 196, 164);
      color:white;
-
-}
+     padding: 30px;
+     font-size: 15px;}
 
 main {
     float: left;
@@ -73,7 +79,7 @@ ul {
     margin: 0;
     padding: 0;
     width: 200px;
-    background-color: #f1f1f1;
+    background-color: #ffffff;
   }
   
   li a {
