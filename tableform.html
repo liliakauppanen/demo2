@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styletable.css">
+    <title>tehtävä 10b</title>
+
+
+</head>
+
+<body>
+    <h1>taulukko</h1>
+    <table>
+        <caption>asiakkaat</caption>
+        <tr>
+            <th>nimi</th>
+            <th>ikä</th>
+        </tr>
+        <tr>
+            <th>Leena Korhonen</th>
+            <th>43</th>
+        </tr>
+        <tr>
+            <th>Miika Lehtonen</th>
+            <th>37</th>
+        </tr>
+
+    </table>
+
+    <table style="width:70%">
+        <tr>
+            <th>tuote</th>
+            <th>paino</th>
+            <th>hinta</th>
+        </tr>
+        <tr>
+            <td>maito</td>
+            <td>1L</td>
+            <td>1.70€</td>
+        </tr>
+        <tr>
+            <td>peruna</td>
+            <td>1Kg</td>
+            <td>1.20€</td>
+        </tr>
+    </table>
+
+    <form action="https://www.w3schools.com/action_page.php">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname" required><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname" required><br><br>
+        <lable for="email">Email:</lable><br>
+        <input type="text" id="email" name="email" required><br>
+        <input type="submit">
+        <p>tähän voi kirjoittaa tekstin</p>
+        <textarea required>  </textarea>
+        <style>
+            textarea {
+                width: 80px;
+                rows: "4";
+            }
+        </style>
+
+
+        <input type="checkbox" id="vehicle1" name="vehicle1" value="autolla" required>
+        <label for="vehicle1"> autolla</label><br>
+        <input type="checkbox" id="vehicle2" name="vehicle2" value="polkupyörällä" required>
+        <label for="vehicle2"> polkupyörällä</label><br>
+        <input type="checkbox" id="vehicle3" name="vehicle3" value="bussilla" required>
+        <label for="vehicle3"> bussilla</label><br><br>
+
+
+        <label for="">tulen kauppaan:</label>
+        <select name="cars" id="cars" required>
+            <option value="autolla">autolla</option>
+            <option value="polkupyörällä">polkupyörällä</option>
+            <option value="bussilla">bussilla</option>
+        </select>
+        <br><br>
+    </form>
+
+
+
+
+
+</body>
+
+</html>
