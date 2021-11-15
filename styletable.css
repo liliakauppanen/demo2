@@ -9,3 +9,7 @@ td {
 body {
     background-color: burlywood;
 }
+textarea {
+    width: 80px;
+
+}
