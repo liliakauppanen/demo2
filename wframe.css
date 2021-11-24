@@ -20,10 +20,10 @@ h1 {
     margin: 30px;
 }
 ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100px;
 }
 
 .center-img {
@@ -34,21 +34,27 @@ ul {
 
   ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    width: 300px;
     background-color: #ffffffda;
   }
-  
+
+  /*alhaalla oleva linkki
   .link {
     list-style-type: none;
     margin: 0px;
     padding: 0px;
     width: 365px;
     background-color: #ffffff;
-    text-align:left;
+     color:black;
+*/
 
-  }
+.link {
+  text-align: right;
+  padding: 8px 16px;
+}
+/*
   a {
     display: block;
     color:black;
@@ -56,15 +62,78 @@ ul {
     text-decoration: none;
     
   }
+  */
   
   /* Change the link color on hover */
  a:hover {
     background-color:#EECF9D;
     color: white;
+    padding:10px;
+
      }
 
-     .col-sm-4 {
-         padding: 40px;
-         background-image: 
-         url("taustakuvaa.jpg");
-         padding:10px;    }
+    
+      /*search*/
+        form {
+          width:400px;
+          margin:auto;
+          text-align: right;
+
+          }
+
+          input{
+          padding:4px 10px;
+          border:0;
+          font-size:16px;
+          }
+
+          .search {
+          width: 50%;
+          }
+          .submit{
+          width: 70px;
+          background-color: #1c87c9;
+          color:#ffffff;
+          }
+
+
+  /*icons*/
+  #some {
+    padding:10px;
+    text-align: left;
+  }
+
+  .bi-instagram {
+    margin:10px;
+  }
+  .bi-envelope-fill {
+    margin:10px;
+  }
+  .bi-facebook {
+    margin:10px;
+  }
+  .bi-share {
+    margin:10px;
+  }
+
+  #copy {
+    text-align: center;
+    margin:10px;
+
+  }
+/* toinen sivu, kaupat*/
+
+
+.row .col-sm-4 {
+    padding: 40px;
+    background-image: 
+    url("taustakuvaa.jpg");
+    padding:10px;    }
+    
+
+   /* .row .col-sm-4{
+      height: 10px;
+      background-color: black;
+      color: white;
+    }
+*/
