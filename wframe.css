@@ -38,6 +38,7 @@ ul {
     padding: 10px;
     width: 300px;
     background-color: #ffffffda;
+
   }
 
   /*alhaalla oleva linkki
@@ -53,6 +54,8 @@ ul {
 .link {
   text-align: right;
   padding: 8px 16px;
+  text-decoration: none;
+
 }
 /*
   a {
@@ -66,9 +69,10 @@ ul {
   
   /* Change the link color on hover */
  a:hover {
-    background-color:#EECF9D;
+    background-color:#cdf5cf;
     color: white;
     padding:10px;
+
 
      }
 
@@ -137,3 +141,24 @@ ul {
       color: white;
     }
 */
+
+/*uff,hakaniemi*/
+
+.m{
+  text-align: center;
+}
+
+.photo {
+  padding:50px;
+  
+}
+
+/*hr {
+  padding: 1px;
+background-color: black;
+}
+*/
+
+#som {
+  padding: 60px;
+}
