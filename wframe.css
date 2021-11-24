@@ -68,9 +68,9 @@ ul {
   */
   
   /* Change the link color on hover */
- a:hover {
+ .linkki:hover {
     background-color:#cdf5cf;
-    color: white;
+    color: rgb(116, 99, 99);
     padding:10px;
 
 
