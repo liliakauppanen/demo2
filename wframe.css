@@ -26,3 +26,45 @@ ul {
     width: 200px;
 }
 
+.center-img {
+    display: block;
+    margin: 0 auto;
+    padding: 20px;
+  }
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #ffffffda;
+  }
+  
+  .link {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    width: 365px;
+    background-color: #ffffff;
+    text-align:left;
+
+  }
+  a {
+    display: block;
+    color:black;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+  }
+  
+  /* Change the link color on hover */
+ a:hover {
+    background-color:#EECF9D;
+    color: white;
+     }
+
+     .col-sm-4 {
+         padding: 40px;
+         background-image: 
+         url("taustakuvaa.jpg");
+         padding:10px;    }
