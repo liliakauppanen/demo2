@@ -111,6 +111,7 @@ h1 {
   #some {
     padding:60px;
     text-align: left;
+    clear:left
   }
 
   .bi-instagram {
@@ -177,3 +178,8 @@ background-color: black;
 
 
  /*tiedot*/
+
+ .vali {
+   font-family: monospace;
+   
+ }
