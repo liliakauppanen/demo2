@@ -19,6 +19,12 @@ h1 {
     font-size: 15px;
     margin: 30px;
 }
+.linkki {
+  text-decoration: none;
+  color: black;
+}
+
+
 .ul {
   list-style-type: none;
   margin: 0;
