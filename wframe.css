@@ -111,7 +111,7 @@ h1 {
   #some {
     padding:60px;
     text-align: left;
-    clear:left
+    clear:both;
   }
 
   .bi-instagram {
