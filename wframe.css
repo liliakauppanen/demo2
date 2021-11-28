@@ -185,6 +185,16 @@ background-color: black;
  }
 
 
- /* <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700" rel="stylesheet">
-       
+
+ @media only screen and (max-width: 800px) {
+  .vali > .dropdown .dropdown-menu {
+    left: 50% !important;
+    margin-left: -80px; /* (Half Menu Width in margin left) */
+    top: 100%;
+ }
+
+  p {
+      font-size: 13px;
+  }
+ }
+  
