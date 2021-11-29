@@ -100,11 +100,7 @@ h1 {
           .search {
           width: 50%;
           }
-          .submit{
-          width: 70px;
-          background-color: #1c87c9;
-          color:#ffffff;
-          }
+      
 
 
   /*icons*/
@@ -180,21 +176,11 @@ background-color: black;
  /*tiedot*/
 
  .vali {
-   font-family: monospace;
-   
- }
+  font-family: monospace;
+  
+}
 
 
 
- @media only screen and (max-width: 800px) {
-  .vali > .dropdown .dropdown-menu {
-    left: 50% !important;
-    margin-left: -80px; /* (Half Menu Width in margin left) */
-    top: 100%;
- }
 
-  p {
-      font-size: 13px;
-  }
- }
   
